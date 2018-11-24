@@ -1,0 +1,32 @@
+.AnswerItem {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(196, 196, 196);
+    background: #F5F5F5;
+    background-image: linear-gradient(to bottom, #f5f5f5, #E7E7E7);
+    box-shadow: 0 1px #FFF inset, 1px 0 #F7F7F7 inset, -1px 0 #F7F7F7 inset, 0 -1px #F1F1F1 inset, 0 1px #E6E6E6;
+}
+
+.AnswerItem:hover {
+    background: #dbdbdb;
+    transition: .2s ease-in-out
+}
+
+.AnswerItem:active {
+    color: #fff;
+    background: #ccc;
+    box-shadow: 0 1px #aaa inset;
+    border-color: #DDD;
+}
+
+.AnswerItem.success {
+    background: rgba(40, 167, 69, .2);
+    transition: .5s ease-in
+}
+
+.AnswerItem.error {
+    background: rgba(220, 53, 69, .2);
+    transition: .5s ease-in
+}

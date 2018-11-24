@@ -1,0 +1,31 @@
+.Auth {
+    padding: 20px;
+    padding-top: 5%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #77d0f3 0%, #44bdec 100%);
+}
+
+.AuthForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2px;
+    background: #F6F6F6;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.AuthForm form {
+    margin-top: 20px;
+}
+
+.Auth h1 {
+    margin: 0;
+}
+
+.Auth h1,
+.Auth p {
+    text-align: center;
+}
